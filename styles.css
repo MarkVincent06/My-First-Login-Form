@@ -1,0 +1,55 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, #e66465, #9198e5);
+    overflow: hidden;
+}
+
+.form-wrapper {
+    margin: 50px auto;
+    width: 350px;
+    height: 450px;
+    background: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-wrapper > input{
+    padding: 10px 20px;
+    min-width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.form-wrapper > input[type=submit] {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    background: linear-gradient(to left, #e66465, #9198e5);
+
+    border: none;
+}
+
+.form-wrapper > p {
+    margin-top: 30px;
+}
+ 
+.s-message {
+    text-align: center;
+    position: relative;
+    bottom: 115px;
+    color: green;
+}
+
+.e-message {
+    text-align: center;
+    position: relative;
+    bottom: 115px;
+    color: rgb(223, 12, 12);
+}
+
